@@ -2,6 +2,8 @@ package jiconfont.icons;
 
 import jiconfont.IconCode;
 
+import java.io.InputStream;
+
 /**
  * Copyright (c) 2016 jIconFont <BR>
  * <BR>
@@ -934,7 +936,8 @@ public enum GoogleMaterialDesignIcons implements IconCode {
   }
 
   @Override
-  public String getFontPath() {
-    return "/fonts/MaterialIcons-Regular.ttf";
+  public InputStream getFontInputStream() {
+    return GoogleMaterialDesignIcons.class
+      .getResourceAsStream("/fonts/MaterialIcons-Regular.ttf");
   }
 }
