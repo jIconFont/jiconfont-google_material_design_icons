@@ -1,6 +1,7 @@
 package jiconfont.icons;
 
 import jiconfont.IconCode;
+import jiconfont.IconFont;
 
 import java.io.InputStream;
 
@@ -935,9 +936,19 @@ public enum GoogleMaterialDesignIcons implements IconCode {
         return "Material Icons";
     }
 
-    @Override
-    public InputStream getFontInputStream() {
-        return GoogleMaterialDesignIcons.class
-                .getResourceAsStream("/fonts/MaterialIcons-Regular.ttf");
+
+    public static IconFont getIconFont() {
+        return new IconFont() {
+            @Override
+            public String getFontFamily() {
+                return "Material Icons";
+            }
+
+            @Override
+            public InputStream getFontInputStream() {
+                return GoogleMaterialDesignIcons.class
+                        .getResourceAsStream("/fonts/MaterialIcons-Regular.ttf");
+            }
+        };
     }
 }
