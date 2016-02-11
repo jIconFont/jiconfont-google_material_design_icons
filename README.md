@@ -4,7 +4,6 @@
 
 * [https://design.google.com/icons/](https://design.google.com/icons/)
 * [GitHub Repository](https://github.com/google/material-design-icons/)
-* 
 
 ### Icons
 
