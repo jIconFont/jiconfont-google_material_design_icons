@@ -1,4 +1,4 @@
-package jiconfont.icons;
+package jiconfont.icons.google_material_design_icons;
 
 import jiconfont.IconCode;
 import jiconfont.IconFont;
@@ -981,7 +981,7 @@ public enum GoogleMaterialDesignIcons implements IconCode {
 
       @Override
       public InputStream getFontInputStream() {
-        return GoogleMaterialDesignIcons.class.getResourceAsStream("/fonts/MaterialIcons-Regular.ttf");
+        return GoogleMaterialDesignIcons.class.getResourceAsStream("/fonts/google_material_design_icons/MaterialIcons-Regular.ttf");
       }
     };
   }
