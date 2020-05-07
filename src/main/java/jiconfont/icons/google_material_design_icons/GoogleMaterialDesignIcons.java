@@ -956,7 +956,8 @@ public enum GoogleMaterialDesignIcons implements IconCode {
   ZOOM_OUT('\uE900'),
   ZOOM_OUT_MAP('\uE56B'),
   TOGGLE_ON('\uE9F6'),
-  TOGGLE_OFF('\uE9F5');
+  TOGGLE_OFF('\uE9F5'),
+  MINIMIZE('\uE931');
 
   private final char character;
 
